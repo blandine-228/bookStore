@@ -1,7 +1,21 @@
+using DineBookStore.Models.Domain;
+using DineBookStore.Repositories.Abstract;
+using DineBookStore.Repositories.Implementation;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Register DB 
+
+builder.Services.AddDbContext<DatabaseContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
+
+builder.Services.AddScoped<IGenreService, GenreService>();
+
+
 
 var app = builder.Build();
 
