@@ -58,8 +58,8 @@ namespace DineBookStore.Controllers
             var result = service.Update(model);
             if (result)
             {
-                TempData["msg"] = "Added successfulley";
-                return RedirectToAction(nameof(Add));
+                TempData["msg"] = "Updated successfulley";
+                return RedirectToAction("GetAll");
             }
             TempData["msg"] = "Error";
             return View(model);
