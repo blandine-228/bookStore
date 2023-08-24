@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\MY_PROJECT\Net Projects\bookStore\DineBookStore\DineBookStore
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/MY_PROJECT/Net Projects/bookStore/DineBookStore/DineBookStore/Views/Author/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MY_PROJECT/Net Projects/bookStore/DineBookStore/DineBookStore/Views/Author/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEdldEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MY_PROJECT/Net Projects/bookStore/DineBookStore/DineBookStore/Views/Author/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MY_PROJECT/Net Projects/bookStore/DineBookStore/DineBookStore/Views/Genre/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

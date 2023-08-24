@@ -67,7 +67,6 @@ namespace DineBookStore.Controllers
 
         //delete
 
-
         public IActionResult Delete(int id)
         {
             var result = service.Delete(id);
